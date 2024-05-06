@@ -53,10 +53,10 @@ GROUP="admin"
 passw="admin@123"
 
 if id -u "$USER" &>/dev/null; then 
-   echo "devops user exists no action required.."
+   echo "$USER user exists no action required.."
    exit 0
 else
-  echo "devops user missing, continue to create it.."
+  echo "$USER user missing, continue to create it.."
 fi
 
 if [ -f /etc/os-release ];then
