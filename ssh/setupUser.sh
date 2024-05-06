@@ -49,7 +49,7 @@ f()
 ############### MAIN ###################
 
 USER="admin"
-GROUP="devops"
+GROUP="admin"
 passw="admin@123"
 
 if id -u "$USER" &>/dev/null; then 
