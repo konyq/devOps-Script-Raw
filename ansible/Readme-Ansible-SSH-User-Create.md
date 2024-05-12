@@ -1,12 +1,12 @@
 ## create a user on all machines ( controller & all targets )
 
-        sudo wget https://raw.githubusercontent.com/konyq/devops-lab/main/ansible/setupUser.sh -P /tmp
-	sudo bash /tmp/setupUser.sh
-	
-	Note: above script will setup username & password as below 
-	
-	USERNAME: devops
-	PASSWORD: dev@098
+sudo wget https://raw.githubusercontent.com/konyq/devops-lab/main/ansible/setupUser.sh -P /tmp
+sudo bash /tmp/setupUser.sh
+
+Note: above script will setup username & password as below 
+
+USERNAME: devops
+PASSWORD: dev@098
 
 ### genereate ssh keys for above user on contrller machine 
 
