@@ -118,7 +118,7 @@ update_conf()
 
 USER="devops"
 GROUP="devops"
-passw="today@1234"
+passw="dev@098"
 
 if id -u "$USER" &>/dev/null; then 
    echo "devops user exists no action required.."
