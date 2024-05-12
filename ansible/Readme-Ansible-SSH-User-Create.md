@@ -6,7 +6,7 @@
 	Note: above script will setup username & password as below 
 	
 	USERNAME: devops
-	PASSWORD: today@1234
+	PASSWORD: dev@098
 
 ### genereate ssh keys for above user on contrller machine 
 
