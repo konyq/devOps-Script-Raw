@@ -1,6 +1,7 @@
 ## create a user on all machines ( controller & all targets )
 
 sudo wget https://raw.githubusercontent.com/konyq/devops-lab/main/ansible/setupUser.sh -P /tmp
+
 sudo bash /tmp/setupUser.sh
 
 
