@@ -3,6 +3,7 @@
 sudo wget https://raw.githubusercontent.com/konyq/devops-lab/main/ansible/setupUser.sh -P /tmp
 sudo bash /tmp/setupUser.sh
 
+
 Note: above script will setup username & password as below 
 
 USERNAME: devops
